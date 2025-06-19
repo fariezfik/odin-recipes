@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    background-color: #5995DA;
+    color: beige;
+    padding: 20px;
+    text-align: center;
+}
