@@ -3,9 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+.login-signup{
+    background-color: lightblue;
+    display: flex;
+    padding: 10px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    gap: 10px;
+}
 .title{
     background-color: #5995DA;
     color: beige;
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 300px;
+    align-items: center;
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+   width: 900px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: row-reverse;
+   align-items: center;
+   text-align: center;
+    
 }
